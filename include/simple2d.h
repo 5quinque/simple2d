@@ -1,4 +1,6 @@
 // simple2d.h
+#ifndef	_SIMPLE2D_H
+#define	_SIMPLE2D_H	1
 
 #ifdef __cplusplus
 extern "C" {
@@ -754,4 +756,6 @@ void S2D_GL_FlushBuffers();
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif
